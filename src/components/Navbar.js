@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 
 function Navbar() {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center justify-between container'>
       <div className="logo">
          <img src={logo} alt="" />
       </div>
@@ -16,8 +16,8 @@ function Navbar() {
       </div>
 
       <div>
-        <button>sign in</button>
-        <button type="button" class="btn btn-outline-danger rounded rounded-pill">Danger</button>
+        <button className='py-2 px-4'>sign in</button>
+        <button type="button" class=" rounded-pill  py-2 px-4 border-1 border-[#f53855] hover:bg-[#f53955] hover:text-white text-redPink">Danger</button>
       </div>
     </div>
   )
