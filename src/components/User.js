@@ -3,7 +3,7 @@ import userLogo from '../images/Icon/user.png'
 
 function User() {
   return (
-    <div className='bg-white w-[83%] h-[200px] shadow-lg rounded-sm border container relative '>
+    <div className='bg-white w-[83%] h-[200px] shadow-lg rounded-sm border container relative my-5'>
       <div className='flex justify-between px-5 h-full flex-wrap'>
            <div className='flex gap-4 items-center'>
             <div>
