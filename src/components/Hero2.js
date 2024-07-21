@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 function Hero2() {
   return (
     <div className='flex flex-wrap w-full h-full px-5 items-center py-5  container flex-row-reverse justify-around'>
-    <div className='flex-1 hero ml-28 mt-2'>
+    <div className='flex-1 hero ml-28 mt-2xl'>
       <h1 className='font-medium text-[35px]'>Want anything to be <br />  easy with <span className='font-bold'>LaslesVPN</span> .</h1>
       <p className='text-[#4F5665] my-4 text-[16px]'> Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
       <ul className='leading-10'>
